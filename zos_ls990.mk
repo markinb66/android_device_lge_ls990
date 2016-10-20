@@ -1,7 +1,7 @@
 $(call inherit-product, device/lge/ls990/full_ls990.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/zos/config/common.mk)
+$(call inherit-product, vendor/zos/common.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/zos/config/nfc_enhanced.mk)
